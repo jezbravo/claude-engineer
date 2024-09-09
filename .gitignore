@@ -1,0 +1,4 @@
+/src
+*.env
+Chat_****.md
+*.txt
