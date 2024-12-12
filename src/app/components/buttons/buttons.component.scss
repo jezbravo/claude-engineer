@@ -1,0 +1,68 @@
+.buttons-container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  h2 {
+    background-color: #FF1C72;
+    color: white;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .table {
+    th, td {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    th:first-child,
+    td:first-child {
+      text-align: left;
+    }
+  }
+
+  .btn-primary {
+    background-color: #FF1C72;
+    border-color: #FF1C72;
+
+    &:hover, &.hover {
+      background-color: darken(#FF1C72, 10%);
+      border-color: darken(#FF1C72, 10%);
+    }
+
+    &:active, &.active {
+      background-color: darken(#FF1C72, 15%);
+      border-color: darken(#FF1C72, 15%);
+    }
+  }
+
+  .btn-outline-primary {
+    color: #FF1C72;
+    border-color: #FF1C72;
+
+    &:hover, &.hover {
+      background-color: rgba(255, 28, 114, 0.1);
+    }
+
+    &:active, &.active {
+      background-color: #FF1C72;
+      color: white;
+    }
+  }
+
+  .btn-link {
+    color: #FF1C72;
+    text-decoration: none;
+
+    &:hover, &.hover {
+      text-decoration: underline;
+    }
+
+    &:active, &.active {
+      color: darken(#FF1C72, 15%);
+    }
+  }
+}
