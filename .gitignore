@@ -2,3 +2,4 @@
 *.env
 Chat_****.md
 *.txt
+*.ipynb
